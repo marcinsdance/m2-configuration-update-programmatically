@@ -19,9 +19,7 @@ class UpgradeData implements UpgradeDataInterface
     public function upgrade(ModuleDataSetupInterface $setup, ModuleContextInterface $context)
     {
         $setup->startSetup();
-        $this->configWriter->save('shipping/origin/country_id', 'FR', 'websites', 6);
-        $this->configWriter->save('shipping/origin/region_id', '183', 'websites', 6);
-        $this->configWriter->save('tax/calculation/based_on', 'origin', 'websites', 6);
+        $this->configWriter->save('tax/calculation/based_on', 'address', 'websites', 6);
         $setup->endSetup();
     }
 }
