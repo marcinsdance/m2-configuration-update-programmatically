@@ -4,3 +4,5 @@ To update the configuration later just bump the module version and change the Up
 <p>After the module is in place run the setup scripts first and then clean cache:<br>
 <pre><code>php bin/magento setup:upgrade
 php bin/magento cache:clean</code></pre>
+
+Thanks Inchoo for <a href="https://inchoo.net/magento-2/setup-scripts-magento-2/" target="_blank">their post</a>!
