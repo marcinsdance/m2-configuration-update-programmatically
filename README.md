@@ -1,3 +1,4 @@
+<h1>OUTDATED!! DON'T USE</h1>
 <p>This is a template module for Magento 2 if you need to change configuration programmatically (modify the core_config_data table).<br>
 To update the configuration later just bump the module version up and change the UpgradeData.php class - check branch module-update-script for that.
 </p>
